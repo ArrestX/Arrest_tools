@@ -1,0 +1,12 @@
+ip=http://131.221.178.8:8040/manager/html
+username=admin
+password=admin
+
+ip=http://177.2.29.203:8040/manager/html
+username=admin
+
+password=admin
+ip=http://131.221.178.8:8040/manager/html
+username=admin
+
+password=admin
