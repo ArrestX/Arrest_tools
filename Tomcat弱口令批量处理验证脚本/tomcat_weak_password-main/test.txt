@@ -1,4 +1,0 @@
-ip=http://131.221.178.8:8040/manager/html
-username=admin
-
-
