@@ -7,30 +7,31 @@ import java.io.IOException;
 import java.util.HashSet;
 import java.util.Set;
 
-public class IPDuplicateRemover {
+public class DataDuplicateRemover {
     public static void main(String[] args) {
         String inputFile = "/Users/arrest_document/Documents/Hero404not_tools/quchong/src/main/input.csv";
         String outputFile = "/Users/arrest_document/Documents/Hero404not_tools/quchong/src/main/output.csv";
 
         try {
-            Set<String> uniqueIPs = new HashSet<>();
+            Set<String> uniqueData = new HashSet<>();
 
             BufferedReader reader = new BufferedReader(new FileReader(inputFile));
             String line;
             while ((line = reader.readLine()) != null) {
+                // Assuming data is in the first column, you can modify this based on your actual data structure
                 String[] parts = line.split(",");
-                String ip = parts[0].trim(); // Assuming IP address is in the first column
-                uniqueIPs.add(ip);
+                String data = parts[0].trim();
+                uniqueData.add(data);
             }
             reader.close();
 
             FileWriter writer = new FileWriter(outputFile);
-            for (String ip : uniqueIPs) {
-                writer.write(ip + "\n");
+            for (String data : uniqueData) {
+                writer.write(data + "\n");
             }
             writer.close();
 
-            System.out.println("Duplicate IP addresses removed and saved to " + outputFile);
+            System.out.println("重复数据已被移除并保存到 " + outputFile);
         } catch (IOException e) {
             e.printStackTrace();
         }

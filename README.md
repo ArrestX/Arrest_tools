@@ -1,7 +1,5 @@
 <img width="319" alt="image" src="https://github.com/ArrestX/Hero404not_tools/assets/33832030/aaec770e-cf2c-4b16-ab20-c87163b2a3b9"># Hero404not_tools
 工具大合集
-
-
 1，简单的压缩炸弹脚本，可以对服务器造成资源损耗，py脚本，可以通过下边很清楚的看到42kb解压完有5G，用于拿到Shell进行攻击的一种方式
 <img width="689" alt="image" src="https://github.com/ArrestX/Hero404not_tools/assets/33832030/d7fdfcd6-0b5b-4183-a530-b05b0d468a8a">
 2.Tomcat弱口令批量验证脚本，通过开启多个bash达到的多线程

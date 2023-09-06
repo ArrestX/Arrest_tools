@@ -12,7 +12,7 @@ public class TextFileFilter {
 
             String line;
             while ((line = reader.readLine()) != null) {
-                if (line.contains("metermall")) {
+                if (line.contains("OK")) {
                     writer.write(line);
                     writer.newLine();
                 }
