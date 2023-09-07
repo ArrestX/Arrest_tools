@@ -3,8 +3,10 @@
 
 1，简单的压缩炸弹脚本，可以对服务器造成资源损耗，py脚本，可以通过下边很清楚的看到42kb解压完有5G，用于拿到Shell进行攻击的一种方式
 ![img_2.png](img_2.png)
+
 2.Tomcat弱口令批量验证脚本，通过开启多个bash达到的多线程
 ![img.png](img.png)
+
 3.对一些ssm项目或者java的项目，使用web.xml文件配置相关路由的进行路由提取。
 
 **`python3 servlet_parse.py web.xml -o 1.txt`**
