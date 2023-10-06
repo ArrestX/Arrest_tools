@@ -1,1 +1,0 @@
-python3 servlet_parse.py web.xml -o 1.txt
